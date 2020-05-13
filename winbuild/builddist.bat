@@ -4,6 +4,7 @@ virtualenv __env__
 call __env__\Scripts\activate.bat
 
 pip install .
+pip install pywin32
 pip install nuitka
 
 REM Hack to workaround an issue with the way Nuitka handles the icons...
